@@ -25,7 +25,7 @@ jobs:
           python-version: "3.12"
           architecture: "x64"
       - name: Run tests
-        run: python -m untittest
+        run: python -m untit_tests
 
   ubuntu-tests:
     runs-on: ubuntu-latest
@@ -37,5 +37,5 @@ jobs:
           python-version: "3.12"
           architecture: "x64"
       - name: Run tests
-        run: python -m untittest
+        run: python -m untit_tests
     
